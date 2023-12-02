@@ -15,7 +15,7 @@ Then use the laptop to assign the i value in the file
 Using split function to spilt the words
 ### Step 5: 
 Finding the given length of the words by using len() fuction.
-### Step 6: 
+### Step 6:
 Calling the function and Printing the number of words.
 ## PROGRAM:
 ```
