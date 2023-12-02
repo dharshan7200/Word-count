@@ -18,10 +18,19 @@ Finding the given length of the words by using len() fuction.
 ## Step 6:
 Calling the function and Printing the number of words.
 ## PROGRAM:
-
+```
+#Program to count the no. of words in a file.
+#Developed by Dharshan D
+#Reg.no: 23001663
+fname=input("Enter the file name:")
+num_words=0
+with open(fname,"r") as f:
+  for line in f:
+    words=line.split()
+    num_words+=len(words)
+  print("Number of words:",num_words)
+```
 ### OUTPUT:
-
-
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
