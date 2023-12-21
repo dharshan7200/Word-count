@@ -31,6 +31,6 @@ with open(fname,"r") as f:
   print("Number of words:",num_words)
 ```
 ### OUTPUT:
-
+![OUTPUT](/word_count.png)
 ## RESULT:
 Thus the program is written to find the word count from a text.
